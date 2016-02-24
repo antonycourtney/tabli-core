@@ -1,6 +1,6 @@
 {
   "name": "tabli-core",
-  "version": "0.8.9",
+  "version": "0.8.10",
   "description": "Browser-independent core of Tabli tab manager",
   "main": "lib/js/index.js",
   "license": "MIT",
@@ -13,7 +13,9 @@
     "react": "^0.14.3"
   },
   "dependencies": {
-    "events": "^1.1.0"
+    "events": "^1.1.0",
+    "oneref": "^0.1.4",
+    "react-addons-pure-render-mixin": "^0.14.3"
   },
   "devDependencies": {
     "babel": "^6.3.26",
